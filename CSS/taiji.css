@@ -1,0 +1,36 @@
+.taiJi {
+    background: #fff;
+    width: 100px;
+    height: 50px;
+    border-color: #000;
+    border-style: solid;
+    border-width: 2px 2px 50px 2px;
+    border-radius: 100%;
+    position: relative;
+    margin: 0 auto;
+  }
+  
+  .taiJi:before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 0;
+    border: 19px solid #000;
+    border-radius: 100%;
+    width: 12px;
+    height: 12px;
+    background: #fff;
+  }
+  
+  .taiJi:after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    border: 19px solid #fff;
+    border-radius: 100%;
+    width: 12px;
+    height: 12px;
+    background: #000;
+  }
+    
